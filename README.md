@@ -19,13 +19,22 @@ Step 1:
 Click on the URL http://165.227.109.228:3000/api-docs/#/ 
 
 This URL consists of the swagger implementation of the application
- 
 
+![alt text](/images/1.png "Screenshot") 
+
+ 
 Step 2:
 Click on the GET option under /search bar.
 Please give the input word in the search bar and click on execute.
+
+![alt text](/images/2.png "Screenshot") 
  
 Response tab consists of different auto suggestions of the given word as below
- 
+
+![alt text](/images/3.png "Screenshot") 
 
 In the similar way we can try it with different input values,
+
+![alt text](/images/4.png "Screenshot") 
+
+![alt text](/images/5.png "Screenshot") 
