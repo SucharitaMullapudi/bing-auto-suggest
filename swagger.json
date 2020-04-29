@@ -1,0 +1,61 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Bing Autosuggest",
+      "description": "Bing Autosuggest API Interface",
+      "license": {
+        "name": "Harry",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "host": "localhost:3000",
+    "basePath": "/v1",
+    "tags": [
+      {
+        "name": "Bing Search",
+        "description": "API for auto suggest"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "paths": {
+      "/search": {
+        "get": {
+          "tags": [
+            "Search"
+          ],
+          "description": "Type a query to search for the realted articles",
+          "parameters": [
+            {
+              "name": "query",
+              "in": "query",
+              "description": "search query",
+              "schema": {
+              }
+            }
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "auto suggest response",
+              "schema": {
+              }
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+
+    }
+  }
